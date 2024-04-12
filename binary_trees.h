@@ -92,7 +92,7 @@ binary_tree_t *binary_tree_rotate_right(binary_tree_t *tree);
 binary_tree_t *bt_find_lca(binary_tree_t *root, const binary_tree_t *first,
 			   const binary_tree_t *second);
 /* helper to task 20 */
-void level_p(const binary_tree_t *tree, size_t lvl,
+void workon_tree_level(const binary_tree_t *tree, size_t level_p,
 		      void (*func)(int));
 
 /* helper to task 21 */
