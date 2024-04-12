@@ -117,7 +117,7 @@ avl_t *sorted_array_to_avl(int *array, size_t size);
 
 /* helpers to task 30 */
 avl_data_t BST_is_AVL_balanced(const binary_tree_t *tree);
-int tree_is_BST(const binary_tree_t *tree, int *prev);
+int tree_is_BST(const binary_tree_t *tree, int *val);
 
 /* advanced tasks 36-40: Max Binary Heap */
 int binary_tree_is_heap(const binary_tree_t *tree);
